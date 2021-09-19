@@ -1,15 +1,15 @@
 package com.example.newsdaily.db
 
-import androidx.room.TypeConverters
+import androidx.room.TypeConverter
 import com.example.newsdaily.models.Source
 
 class Converters {
-    @TypeConverters
+    @TypeConverter
     fun fromSource(source: Source): String{
         return source.name
     }
 
-    @TypeConverters
+    @TypeConverter
     fun toSource(name: String): Source {
         return  Source(name, name)
     }
