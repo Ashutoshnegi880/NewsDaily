@@ -1,5 +1,5 @@
 package com.example.newsdaily.api
-import com.example.newsdaily.ui.NewsResponse
+import com.example.newsdaily.models.NewsResponse
 import com.example.newsdaily.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
