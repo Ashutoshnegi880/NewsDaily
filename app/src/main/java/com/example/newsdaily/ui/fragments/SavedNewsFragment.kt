@@ -69,7 +69,6 @@ class SavedNewsFragment: Fragment(R.layout.fragment_saved_news) {
             newsAdapter.differ.submitList(articles)
 
         })
-
     }
 
     private fun setupRecyclerView(){
