@@ -83,7 +83,6 @@ class SearchNewsFragment: Fragment(R.layout.fragment_search_news) {
                     showProgressBar()
                 }
             }
-
         })
     }
     private fun hideProgressBar() {
