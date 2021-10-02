@@ -14,7 +14,6 @@ import com.example.newsdaily.ui.NewsActivity
 import com.example.newsdaily.ui.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_saved_news.*
-import kotlinx.android.synthetic.main.fragment_search_news.*
 
 class SavedNewsFragment: Fragment(R.layout.fragment_saved_news) {
     lateinit var viewModel: NewsViewModel

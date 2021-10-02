@@ -22,7 +22,7 @@ class ArticleFragment: Fragment(R.layout.fragment_article) {
 
         webView.apply {
             webViewClient = WebViewClient()
-            loadUrl(article.url)
+            loadUrl(article.url.toString())
         }
         fab.setOnClickListener {
             viewModel.saveArticle(article)
