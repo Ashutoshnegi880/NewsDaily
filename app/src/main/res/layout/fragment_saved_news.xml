@@ -4,9 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Swipe left or right to delete news article"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSavedNews"
+        android:layout_marginTop="24dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_article_preview"/>
 
 </FrameLayout>
